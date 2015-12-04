@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ED544FA1C11DB2800B42BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED544F91C11DB2800B42BEA /* AppDelegate.swift */; };
+		5ED544FC1C11DB2800B42BEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED544FB1C11DB2800B42BEA /* ViewController.swift */; };
+		5ED544FF1C11DB2800B42BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED544FD1C11DB2800B42BEA /* Main.storyboard */; };
+		5ED545011C11DB2800B42BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED545001C11DB2800B42BEA /* Assets.xcassets */; };
+		5ED5450C1C11DB2800B42BEA /* TSVideoLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED5450B1C11DB2800B42BEA /* TSVideoLibraryTests.swift */; };
+		5ED545171C11DB2800B42BEA /* TSVideoLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED545161C11DB2800B42BEA /* TSVideoLibraryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ED545081C11DB2800B42BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED544EE1C11DB2800B42BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ED544F51C11DB2800B42BEA;
+			remoteInfo = TSVideoLibrary;
+		};
+		5ED545131C11DB2800B42BEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ED544EE1C11DB2800B42BEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ED544F51C11DB2800B42BEA;
+			remoteInfo = TSVideoLibrary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ED544F61C11DB2800B42BEA /* TSVideoLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSVideoLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED544F91C11DB2800B42BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5ED544FB1C11DB2800B42BEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5ED544FE1C11DB2800B42BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5ED545001C11DB2800B42BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ED545021C11DB2800B42BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED545071C11DB2800B42BEA /* TSVideoLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSVideoLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED5450B1C11DB2800B42BEA /* TSVideoLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSVideoLibraryTests.swift; sourceTree = "<group>"; };
+		5ED5450D1C11DB2800B42BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED545121C11DB2800B42BEA /* TSVideoLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TSVideoLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ED545161C11DB2800B42BEA /* TSVideoLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TSVideoLibraryUITests.swift; sourceTree = "<group>"; };
+		5ED545181C11DB2800B42BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ED544F31C11DB2800B42BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED545041C11DB2800B42BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED5450F1C11DB2800B42BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ED544ED1C11DB2800B42BEA = {
+			isa = PBXGroup;
+			children = (
+				5ED544F81C11DB2800B42BEA /* TSVideoLibrary */,
+				5ED5450A1C11DB2800B42BEA /* TSVideoLibraryTests */,
+				5ED545151C11DB2800B42BEA /* TSVideoLibraryUITests */,
+				5ED544F71C11DB2800B42BEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ED544F71C11DB2800B42BEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ED544F61C11DB2800B42BEA /* TSVideoLibrary.app */,
+				5ED545071C11DB2800B42BEA /* TSVideoLibraryTests.xctest */,
+				5ED545121C11DB2800B42BEA /* TSVideoLibraryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ED544F81C11DB2800B42BEA /* TSVideoLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				5ED544F91C11DB2800B42BEA /* AppDelegate.swift */,
+				5ED544FB1C11DB2800B42BEA /* ViewController.swift */,
+				5ED544FD1C11DB2800B42BEA /* Main.storyboard */,
+				5ED545001C11DB2800B42BEA /* Assets.xcassets */,
+				5ED545021C11DB2800B42BEA /* Info.plist */,
+			);
+			path = TSVideoLibrary;
+			sourceTree = "<group>";
+		};
+		5ED5450A1C11DB2800B42BEA /* TSVideoLibraryTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ED5450B1C11DB2800B42BEA /* TSVideoLibraryTests.swift */,
+				5ED5450D1C11DB2800B42BEA /* Info.plist */,
+			);
+			path = TSVideoLibraryTests;
+			sourceTree = "<group>";
+		};
+		5ED545151C11DB2800B42BEA /* TSVideoLibraryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ED545161C11DB2800B42BEA /* TSVideoLibraryUITests.swift */,
+				5ED545181C11DB2800B42BEA /* Info.plist */,
+			);
+			path = TSVideoLibraryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ED544F51C11DB2800B42BEA /* TSVideoLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED5451B1C11DB2800B42BEA /* Build configuration list for PBXNativeTarget "TSVideoLibrary" */;
+			buildPhases = (
+				5ED544F21C11DB2800B42BEA /* Sources */,
+				5ED544F31C11DB2800B42BEA /* Frameworks */,
+				5ED544F41C11DB2800B42BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TSVideoLibrary;
+			productName = TSVideoLibrary;
+			productReference = 5ED544F61C11DB2800B42BEA /* TSVideoLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ED545061C11DB2800B42BEA /* TSVideoLibraryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED5451E1C11DB2800B42BEA /* Build configuration list for PBXNativeTarget "TSVideoLibraryTests" */;
+			buildPhases = (
+				5ED545031C11DB2800B42BEA /* Sources */,
+				5ED545041C11DB2800B42BEA /* Frameworks */,
+				5ED545051C11DB2800B42BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ED545091C11DB2800B42BEA /* PBXTargetDependency */,
+			);
+			name = TSVideoLibraryTests;
+			productName = TSVideoLibraryTests;
+			productReference = 5ED545071C11DB2800B42BEA /* TSVideoLibraryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ED545111C11DB2800B42BEA /* TSVideoLibraryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ED545211C11DB2800B42BEA /* Build configuration list for PBXNativeTarget "TSVideoLibraryUITests" */;
+			buildPhases = (
+				5ED5450E1C11DB2800B42BEA /* Sources */,
+				5ED5450F1C11DB2800B42BEA /* Frameworks */,
+				5ED545101C11DB2800B42BEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ED545141C11DB2800B42BEA /* PBXTargetDependency */,
+			);
+			name = TSVideoLibraryUITests;
+			productName = TSVideoLibraryUITests;
+			productReference = 5ED545121C11DB2800B42BEA /* TSVideoLibraryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ED544EE1C11DB2800B42BEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Alliterative Software";
+				TargetAttributes = {
+					5ED544F51C11DB2800B42BEA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ZQE4Q3PEKV;
+					};
+					5ED545061C11DB2800B42BEA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ZQE4Q3PEKV;
+						TestTargetID = 5ED544F51C11DB2800B42BEA;
+					};
+					5ED545111C11DB2800B42BEA = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = ZQE4Q3PEKV;
+						TestTargetID = 5ED544F51C11DB2800B42BEA;
+					};
+				};
+			};
+			buildConfigurationList = 5ED544F11C11DB2800B42BEA /* Build configuration list for PBXProject "TSVideoLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ED544ED1C11DB2800B42BEA;
+			productRefGroup = 5ED544F71C11DB2800B42BEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ED544F51C11DB2800B42BEA /* TSVideoLibrary */,
+				5ED545061C11DB2800B42BEA /* TSVideoLibraryTests */,
+				5ED545111C11DB2800B42BEA /* TSVideoLibraryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ED544F41C11DB2800B42BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED545011C11DB2800B42BEA /* Assets.xcassets in Resources */,
+				5ED544FF1C11DB2800B42BEA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED545051C11DB2800B42BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED545101C11DB2800B42BEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ED544F21C11DB2800B42BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED544FC1C11DB2800B42BEA /* ViewController.swift in Sources */,
+				5ED544FA1C11DB2800B42BEA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED545031C11DB2800B42BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED5450C1C11DB2800B42BEA /* TSVideoLibraryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED5450E1C11DB2800B42BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED545171C11DB2800B42BEA /* TSVideoLibraryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ED545091C11DB2800B42BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ED544F51C11DB2800B42BEA /* TSVideoLibrary */;
+			targetProxy = 5ED545081C11DB2800B42BEA /* PBXContainerItemProxy */;
+		};
+		5ED545141C11DB2800B42BEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ED544F51C11DB2800B42BEA /* TSVideoLibrary */;
+			targetProxy = 5ED545131C11DB2800B42BEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5ED544FD1C11DB2800B42BEA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5ED544FE1C11DB2800B42BEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5ED545191C11DB2800B42BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		5ED5451A1C11DB2800B42BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ED5451C1C11DB2800B42BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TSVideoLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alliterative.TSVideoLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5ED5451D1C11DB2800B42BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = TSVideoLibrary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alliterative.TSVideoLibrary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5ED5451F1C11DB2800B42BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSVideoLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alliterative.TSVideoLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSVideoLibrary.app/TSVideoLibrary";
+			};
+			name = Debug;
+		};
+		5ED545201C11DB2800B42BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TSVideoLibraryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alliterative.TSVideoLibraryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TSVideoLibrary.app/TSVideoLibrary";
+			};
+			name = Release;
+		};
+		5ED545221C11DB2800B42BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSVideoLibraryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alliterative.TSVideoLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSVideoLibrary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5ED545231C11DB2800B42BEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TSVideoLibraryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alliterative.TSVideoLibraryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TSVideoLibrary;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ED544F11C11DB2800B42BEA /* Build configuration list for PBXProject "TSVideoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED545191C11DB2800B42BEA /* Debug */,
+				5ED5451A1C11DB2800B42BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ED5451B1C11DB2800B42BEA /* Build configuration list for PBXNativeTarget "TSVideoLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED5451C1C11DB2800B42BEA /* Debug */,
+				5ED5451D1C11DB2800B42BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5ED5451E1C11DB2800B42BEA /* Build configuration list for PBXNativeTarget "TSVideoLibraryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED5451F1C11DB2800B42BEA /* Debug */,
+				5ED545201C11DB2800B42BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5ED545211C11DB2800B42BEA /* Build configuration list for PBXNativeTarget "TSVideoLibraryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED545221C11DB2800B42BEA /* Debug */,
+				5ED545231C11DB2800B42BEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ED544EE1C11DB2800B42BEA /* Project object */;
+}
