@@ -21,5 +21,5 @@ class PlayerViewController: AVPlayerViewController {
         
         player = AVPlayer(URL: NSURL(string: "https://cdnapisec.kaltura.com/p/966871/sp/96687100/playManifest/entryId/1_dbm582wk/format/applehttp/protocol/https/flavorParamId/473051,473041,473031/video.mp4")!)
         player?.play()
-    }   
+    }
 }

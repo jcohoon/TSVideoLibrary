@@ -22,16 +22,13 @@
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="click:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="VZ6-9k-A7Q"/>
+                                    <segue destination="vXF-Hz-0Lp" kind="presentation" id="yAy-tx-pbR"/>
                                 </connections>
                             </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <segue destination="vXF-Hz-0Lp" kind="showDetail" identifier="segue" id="i2S-zN-Fni"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -39,8 +36,8 @@
         <!--AV Player View Controller-->
         <scene sceneID="w86-hE-3Un">
             <objects>
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="vXF-Hz-0Lp" customClass="PlayerViewController" customModule="TSVideoLibrary" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cam-E4-1KH" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="vXF-Hz-0Lp" sceneMemberID="viewController"/>
             </objects>
             <point key="canvasLocation" x="1862.5" y="1445"/>
         </scene>
