@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E1425AF1C4D5CC800F1A361 /* PartnerID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1425AE1C4D5CC800F1A361 /* PartnerID.swift */; };
 		5E20D4201C128A4200A2B5BD /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20D41F1C128A4200A2B5BD /* PlayerViewController.swift */; };
 		5E20D4221C13E0FF00A2B5BD /* kaltura.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E20D4211C13E0FE00A2B5BD /* kaltura.swift */; };
+		5EC3DCA21C175E0C00BCB69E /* libKALTURAPlayerSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC3DC9D1C175CE600BCB69E /* libKALTURAPlayerSDK.a */; };
 		5ED544FA1C11DB2800B42BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED544F91C11DB2800B42BEA /* AppDelegate.swift */; };
 		5ED544FC1C11DB2800B42BEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED544FB1C11DB2800B42BEA /* ViewController.swift */; };
 		5ED544FF1C11DB2800B42BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED544FD1C11DB2800B42BEA /* Main.storyboard */; };
@@ -18,6 +20,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5EC3DC9C1C175CE600BCB69E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC3DC951C175CE500BCB69E /* KALTURAPlayerSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BFFFA727182F9E31005B3B24;
+			remoteInfo = KALTURAPlayerSDK;
+		};
+		5EC3DC9E1C175CE600BCB69E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC3DC951C175CE500BCB69E /* KALTURAPlayerSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B372892E1A8787D00076DD33;
+			remoteInfo = KALTURAPlayerSDKResources;
+		};
+		5EC3DCA01C175E0100BCB69E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5EC3DC951C175CE500BCB69E /* KALTURAPlayerSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BFFFA726182F9E31005B3B24;
+			remoteInfo = KALTURAPlayerSDK;
+		};
 		5ED545081C11DB2800B42BEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5ED544EE1C11DB2800B42BEA /* Project object */;
@@ -35,8 +58,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E1425AE1C4D5CC800F1A361 /* PartnerID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartnerID.swift; sourceTree = "<group>"; };
 		5E20D41F1C128A4200A2B5BD /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		5E20D4211C13E0FE00A2B5BD /* kaltura.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kaltura.swift; sourceTree = "<group>"; };
+		5EC3DC951C175CE500BCB69E /* KALTURAPlayerSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KALTURAPlayerSDK.xcodeproj; path = "../../Kaltura/player-sdk-native-ios-master/KALTURAPlayerSDK.xcodeproj"; sourceTree = "<group>"; };
 		5ED544F61C11DB2800B42BEA /* TSVideoLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TSVideoLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED544F91C11DB2800B42BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ED544FB1C11DB2800B42BEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC3DCA21C175E0C00BCB69E /* libKALTURAPlayerSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,9 +102,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EC3DC961C175CE500BCB69E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC3DC9D1C175CE600BCB69E /* libKALTURAPlayerSDK.a */,
+				5EC3DC9F1C175CE600BCB69E /* KALTURAPlayerSDKResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5ED544ED1C11DB2800B42BEA = {
 			isa = PBXGroup;
 			children = (
+				5EC3DC951C175CE500BCB69E /* KALTURAPlayerSDK.xcodeproj */,
 				5ED544F81C11DB2800B42BEA /* TSVideoLibrary */,
 				5ED5450A1C11DB2800B42BEA /* TSVideoLibraryTests */,
 				5ED545151C11DB2800B42BEA /* TSVideoLibraryUITests */,
@@ -103,6 +139,7 @@
 				5ED544FB1C11DB2800B42BEA /* ViewController.swift */,
 				5E20D41F1C128A4200A2B5BD /* PlayerViewController.swift */,
 				5E20D4211C13E0FE00A2B5BD /* kaltura.swift */,
+				5E1425AE1C4D5CC800F1A361 /* PartnerID.swift */,
 				5ED544FD1C11DB2800B42BEA /* Main.storyboard */,
 				5ED545001C11DB2800B42BEA /* Assets.xcassets */,
 				5ED545021C11DB2800B42BEA /* Info.plist */,
@@ -142,6 +179,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5EC3DCA11C175E0100BCB69E /* PBXTargetDependency */,
 			);
 			name = TSVideoLibrary;
 			productName = TSVideoLibrary;
@@ -221,6 +259,12 @@
 			mainGroup = 5ED544ED1C11DB2800B42BEA;
 			productRefGroup = 5ED544F71C11DB2800B42BEA /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5EC3DC961C175CE500BCB69E /* Products */;
+					ProjectRef = 5EC3DC951C175CE500BCB69E /* KALTURAPlayerSDK.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5ED544F51C11DB2800B42BEA /* TSVideoLibrary */,
@@ -229,6 +273,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5EC3DC9D1C175CE600BCB69E /* libKALTURAPlayerSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libKALTURAPlayerSDK.a;
+			remoteRef = 5EC3DC9C1C175CE600BCB69E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5EC3DC9F1C175CE600BCB69E /* KALTURAPlayerSDKResources.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KALTURAPlayerSDKResources.bundle;
+			remoteRef = 5EC3DC9E1C175CE600BCB69E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5ED544F41C11DB2800B42BEA /* Resources */ = {
@@ -265,6 +326,7 @@
 				5ED544FC1C11DB2800B42BEA /* ViewController.swift in Sources */,
 				5ED544FA1C11DB2800B42BEA /* AppDelegate.swift in Sources */,
 				5E20D4201C128A4200A2B5BD /* PlayerViewController.swift in Sources */,
+				5E1425AF1C4D5CC800F1A361 /* PartnerID.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +349,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5EC3DCA11C175E0100BCB69E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KALTURAPlayerSDK;
+			targetProxy = 5EC3DCA01C175E0100BCB69E /* PBXContainerItemProxy */;
+		};
 		5ED545091C11DB2800B42BEA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5ED544F51C11DB2800B42BEA /* TSVideoLibrary */;
@@ -399,6 +466,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TSVideoLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = alliterative.TSVideoLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +479,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TSVideoLibrary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = alliterative.TSVideoLibrary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
